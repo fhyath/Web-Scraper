@@ -1,2 +1,2 @@
 # Web-Scraper
-This is a web-scraper that tracks the price of a product and sends a text message to the user when the price of the product decreases. This automates the task of constantly having to check if an item has become cheaper.
+This is a web-scraper that was developed using Python and the Beautiful Soup library that tracks the price of a product and sends a text message to the user when the price of the product decreases. It parses through the HTML content of a webpage and extracts the specified data. This automates the task of constantly having to check if an item has become cheaper. This program utilizes the Twillio API to send a text to the user.
