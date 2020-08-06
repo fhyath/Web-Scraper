@@ -23,11 +23,11 @@ def check_price():
 
 
 def send_text():
-    account_sid = 'AC9262984e6023f3ce8847a0b93f12ac32' # Found on Twilio Console Dashboard
-    auth_token = 'b1203b9d7e7328e7ced7cfaa1ba99d1b' # Found on Twilio Console Dashboard
+    account_sid = '*****' # Found on Twilio Console Dashboard
+    auth_token = '*****' # Found on Twilio Console Dashboard
 
-    myPhone = '7065728124' # Phone number you used to verify your Twilio account
-    TwilioNumber = '+12055518686' # Phone number given to you by Twilio
+    myPhone = '*****' # Phone number you used to verify your Twilio account
+    TwilioNumber = '+*****' # Phone number given to you by Twilio
 
     client = Client(account_sid, auth_token)
 
